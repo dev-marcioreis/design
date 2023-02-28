@@ -8,7 +8,7 @@
             align-items: center;
             justify-content: center;
             inset: 1.2rem 0 1.2rem 1.2rem;
-            background: hsla(0, 0%, 100%, 0.658);
+            background: $white-color;
             border-radius: .5rem;
             border: 1px solid hsla(0, 0%, 13%, 0.096);
             box-shadow: $shadow2;
@@ -119,6 +119,10 @@
             .nav__list .nav__link a .name {
                 opacity: 1;
             }
+        }
+
+        .scrolling {
+            background: red;
         }
     }
 }

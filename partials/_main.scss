@@ -10,7 +10,7 @@
                 .home__container {
                     padding: .5rem 1rem;
                     height: 80vh;
-                    box-shadow: $shadow;
+                    box-shadow: $shadow3;
                     background: $white-color;
                     border-radius: .5rem;
                 }
@@ -24,7 +24,7 @@
                 .about__container {
                     padding: .5rem 1rem;
                     height: 80vh;
-                    box-shadow: $shadow;
+                    box-shadow: $shadow3;
                     background: $white-color;
                     border-radius: .5rem;
                 }
@@ -38,7 +38,7 @@
                 .tecnology__container {
                     padding: .5rem 1rem;
                     height: 80vh;
-                    box-shadow: $shadow;
+                    box-shadow: $shadow3;
                     background: $white-color;
                     border-radius: .5rem;
                 }
@@ -52,7 +52,21 @@
                 .portfolio__container {
                     padding: .5rem 1rem;
                     height: 80vh;
-                    box-shadow: $shadow;
+                    box-shadow: $shadow3;
+                    background: $white-color;
+                    border-radius: .5rem;
+                }
+            }
+        }
+
+        .contact {
+            
+            .container {
+
+                .contact__container {
+                    padding: .5rem 1rem;
+                    height: 80vh;
+                    box-shadow: $shadow3;
                     background: $white-color;
                     border-radius: .5rem;
                 }

@@ -2,11 +2,11 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 4rem;
+    height: 300rem;
 }
 body {
     color: $dark-color;
     background: $bg-color;
-    height: 300rem;
 
     &::-webkit-scrollbar {
         width: .2rem;
@@ -15,7 +15,7 @@ body {
         background: $bg-color;
       }
     &::-webkit-scrollbar-thumb {
-        background: $red-color;
+        background: $dark-color;
       }
 }
 .section {

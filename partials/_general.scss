@@ -18,10 +18,10 @@ body {
       }
 }
 .section {
-    padding: 5rem 0;
+    padding: 3rem 0;
 }
 .container {
-    padding: 0 5rem;
+    padding: 0 4rem;
     margin: 0 auto;
 }
 .flex {
@@ -46,6 +46,9 @@ p, a, span, small {
   
 /*==========Media Query==========*/
 @media (max-width: 1024px) {
+    .section {
+        padding: 2rem 0;
+    }
     .container {
         padding: 0 .5rem;
         margin: 0 auto;

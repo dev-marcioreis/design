@@ -9,13 +9,13 @@ body {
     background: $bg-color;
 
     &::-webkit-scrollbar {
-        width: .2rem;
+        width: .4rem;
       }
     &::-webkit-scrollbar-track {
         background: $bg-color;
       }
     &::-webkit-scrollbar-thumb {
-        background: $dark-color;
+        background: $blue-color;
       }
 }
 .section {

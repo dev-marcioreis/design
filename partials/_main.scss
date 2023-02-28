@@ -1,0 +1,56 @@
+.main {
+
+    .container {
+        transition: $transition;
+
+        .home {
+            
+            .container {
+
+                .home__container {
+                    padding: .5rem;
+                }
+            }
+        }
+
+        .about {
+            
+            .container {
+
+                .about__container {
+                    padding: .5rem;
+                }
+            }
+        }
+
+        .tecnology {
+            
+            .container {
+
+                .tecnology__container {
+                    padding: .5rem;
+                }
+            }
+        }
+
+        .portfolio {
+            
+            .container {
+
+                .portfolio__container {
+                    padding: .5rem;
+                }
+            }
+        }
+
+        .footer {
+            
+            .container {
+
+                .footer__container {
+                    padding: .5rem;
+                }
+            }
+        }
+    }
+}

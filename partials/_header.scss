@@ -122,3 +122,17 @@
     }
 }
 
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .header {
+
+        .container {
+    
+            .navbar {
+                left: .5rem;
+            }
+        }
+    }
+
+}

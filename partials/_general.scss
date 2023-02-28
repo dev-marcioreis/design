@@ -2,7 +2,6 @@
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 4rem;
-    height: 300rem;
 }
 body {
     color: $dark-color;
@@ -22,7 +21,7 @@ body {
     padding: 5rem 0;
 }
 .container {
-    padding: 0 6rem;
+    padding: 0 5rem;
     margin: 0 auto;
 }
 .flex {
@@ -48,7 +47,7 @@ p, a, span, small {
 /*==========Media Query==========*/
 @media (max-width: 1024px) {
     .container {
-        padding: 0 1rem;
+        padding: 0 .3rem 0 2.7rem;
         margin: 0 auto;
     }
     h1, h2, h3, h4 {

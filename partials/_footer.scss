@@ -4,6 +4,84 @@
 
         .footer__container {
             border-top: 2px solid $white-color;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 10rem;
+            transition: $transition;
+
+            article {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: .7rem;
+
+                h4 {
+                    margin-block-end: .6rem;
+                    text-transform: capitalize;
+                }
+    
+                a {
+                    font-weight: 400;
+                    text-transform: capitalize;
+                    transition: $transition;
+                    margin-block-end: .7rem;
+                    color: $dark-color;
+    
+                    &:hover {
+                        transform: translateX(10px);
+                    }
+                }
+            }
+
+            .footer-socials {
+                align-items: center;
+                
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 2rem;
+
+                    a {
+                        font-size: 1.4rem;
+                        color: $dark-color;
+                        transition: $transition;
+        
+                        &:hover {
+                            transform: translateY(-10px);
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer-copy {
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-block-start: 2rem;
+
+            small {
+                font-weight: 300;
+            }
         }
     }
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .footer {
+
+        .container {
+
+            .footer__container {
+                align-items: center;
+                flex-direction: column;
+                gap: 3rem;
+            }
+
+        }
+    }
+    
 }

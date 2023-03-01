@@ -1,7 +1,7 @@
 /*==========Base==========*/
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 5rem;
+    scroll-padding-top: 2rem;
 }
 body {
     color: $dark-color;
@@ -46,6 +46,9 @@ p, a, span, small {
   
 /*==========Media Query==========*/
 @media (max-width: 1024px) {
+    html {
+        scroll-padding-top: 5rem;
+    }
     .section {
         padding: 1rem 0;
     }

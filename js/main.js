@@ -82,6 +82,7 @@ let contentImage = document.querySelectorAll('.image')
 let contentBox = document.querySelectorAll('.content-box')
 
 for (let i = 0; i < contentBox.length; i++) {
+
     contentImage[i].addEventListener('mouseover', function() {
         for (let i = 0; i < contentBox.length; i++) {
             contentBox[i].className = 'content-box'

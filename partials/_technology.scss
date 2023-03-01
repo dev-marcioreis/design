@@ -135,3 +135,51 @@
         }
     }
 }
+
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .technology {
+
+        .container {
+    
+            .technology__container {
+    
+                .tech-container {
+                    width: 15rem;
+                    height: 15rem;
+                    box-shadow: none;
+    
+                    .tech-icon {
+                        left: -62%;
+    
+                        .image {
+                            padding: 2rem;
+                            transform-origin: 180px;
+                        }
+                    }
+    
+                    .tech-content {
+    
+                        &::before {
+                            inset: 3rem;
+                        }
+    
+                        .content-box {
+    
+                            .card {
+    
+                                .card-image {
+                                    width: 10rem;
+                                    height: 10rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+
+}

@@ -109,6 +109,8 @@
 
                     .about__container {
                         height: 78vh;
+                        background: $white-color;
+                        height: auto;
                     }
                 }
             }
@@ -119,6 +121,7 @@
 
                     .technology__container {
                         height: 78vh;
+                        background: $white-color;
                     }
                 }
             }
@@ -147,24 +150,3 @@
 
 }
 
-
-/*==========Media Query==========*/
-@media (max-width: 1024px) {
-    .main {
-
-        .container {
-
-            .about {
-
-                .container {
-
-                    .about__container {
-                        background: $white-color;
-                        height: auto;
-                    }
-                }
-            }
-        }
-    }
-
-}

@@ -76,3 +76,21 @@ function bubbles() {
 }
 
 setInterval(bubbles, 50)
+
+
+let contentImage = document.querySelectorAll('.image')
+let contentBox = document.querySelectorAll('.content-box')
+
+for (let i = 0; i < contentBox.length; i++) {
+    contentImage[i].addEventListener('mouseover', function() {
+        for (let i = 0; i < contentBox.length; i++) {
+            contentBox[i].className = 'content-box'
+        }
+        document.getElementById(this.dataset.id).className = 'content-box active'
+
+        for (let i = 0; i < contentBox.length; i++) {
+           contentImage[i].className = 'image'
+        }
+        this.className = 'image active'
+    })
+}

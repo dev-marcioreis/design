@@ -3,6 +3,7 @@ const closeToggle = document.querySelector('.closeToggle')
 const menuToggle = document.querySelector('.navbar')
 const navLink = document.querySelectorAll('.nav__link')
 
+
 openToggle.addEventListener('click', () => {
     menuToggle.classList.add('openMenu')
     openToggle.style.display = 'none'
@@ -25,4 +26,11 @@ function activeLink() {
 }
 navLink.forEach(item => {
     item.addEventListener('click', activeLink)
+})
+
+
+const lightBtn = document.querySelector('.light-btn').addEventListener('click', () => {
+    const lightOn = document.querySelector('.light')
+
+    lightOn.classList.toggle('on')
 })

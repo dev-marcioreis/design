@@ -44,7 +44,7 @@
 
             .nav__list {
                 flex-direction: column;
-                gap: 3rem;
+                gap: 2rem;
                 width: 100%;
                 margin-block-start: 2.5rem;
 
@@ -74,6 +74,11 @@
                             border-radius: .5rem;
                             transition: .5s ease-in-out;
                             box-shadow: inset 0 4px 10px $glass-color, 0 5px 5px hsla(0, 0%, 13%, 0.39), 0 1px 5px $glass-color; 
+                        }
+
+                        .light-btn {
+                            box-shadow: $shadow;
+                            border-radius: 5rem;
                         }
 
                         .name {
@@ -106,6 +111,11 @@
                 color: $white-color;
             }
 
+            .nav__list .nav__link.active a .light-btn {
+                background: $white-color;
+                color: $dark-color;
+            }
+
             .nav__list .nav__link.active a .name {
                 color: $blue-color;
             }
@@ -119,10 +129,6 @@
             .nav__list .nav__link a .name {
                 opacity: 1;
             }
-        }
-
-        .scrolling {
-            background: red;
         }
     }
 }
@@ -152,7 +158,7 @@
                     flex-direction: row;
                     align-items: center;
                     justify-content: center;
-                    gap: 2rem;
+                    gap: 1.4rem;
                     width: 10%;
     
                     .nav__link {

@@ -198,6 +198,11 @@
     
                     .lamp-content {
                         left: 10%;
+
+                        .light {
+                            left: 30%;
+                            background: $yellow-color;
+                        }
                     }
                 }
     
@@ -208,10 +213,10 @@
                         margin-top: -9rem;
                         
                         h2 {
-                            font-size: 1.7rem;
+                            font-size: 1.6rem;
     
                             span {
-                                font-size: 1.7rem;
+                                font-size: 1.6rem;
             
                                 small {
                                     font-size: 4rem;

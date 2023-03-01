@@ -37,3 +37,18 @@ const lightBtn = document.querySelector('.light-btn').addEventListener('click', 
     lightOn.classList.toggle('on')
     activeBtn.classList.toggle('activeBtn')
 })
+
+
+const scrollPage = ScrollReveal({
+    origin: 'top',
+    distance: '50px',
+    duration: 2500,
+    delay: 400
+})
+
+
+scrollPage.reveal(`.lamp-content`, {delay: 100, origin: 'left'})
+scrollPage.reveal(`.profile-image`, {delay: 200, origin: 'right'})
+scrollPage.reveal(`.text-content`, {delay: 100, origin: 'top'})
+scrollPage.reveal(`.location`, {delay: 200, origin: 'left'})
+scrollPage.reveal(`.info`, {delay: 300, origin: 'bottom'})

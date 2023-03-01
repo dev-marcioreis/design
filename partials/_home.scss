@@ -3,6 +3,7 @@
     .container {
 
         .home__container {
+            position: relative;
             align-items: center;
             justify-content: center;
 
@@ -140,6 +141,34 @@
                         }
                     }
                 }
+            }
+
+            /*==========Notification==========*/
+            .notification {
+                position: absolute;
+                bottom: 1rem;
+                right: 1rem;
+                padding: .5rem;
+                background: $red-color;
+                border-radius: .5rem;
+                cursor: pointer;
+                opacity: 0;
+                visibility: hidden;
+                transition: $transition;
+
+                .not-info {
+
+                    small {
+                        font-size: .8rem;
+                        color: $white-color;
+                        font-weight: 400;
+                    }
+                }
+            }
+
+            .notification-active {
+                opacity: 1;
+                visibility: visible;
             }
         }
     }

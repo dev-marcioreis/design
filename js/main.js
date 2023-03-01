@@ -33,10 +33,14 @@ const lightBtn = document.querySelector('.light-btn').addEventListener('click', 
 
     const lightOn = document.querySelector('.light')
     const activeBtn = document.querySelector('.light-btn')
+    const notification = document.querySelector('.notification')
 
     lightOn.classList.toggle('on')
     activeBtn.classList.toggle('activeBtn')
+    notification.classList.toggle('notification-active')
+
 })
+
 
 
 const scrollPage = ScrollReveal({

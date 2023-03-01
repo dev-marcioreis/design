@@ -146,3 +146,25 @@
     }
 
 }
+
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .main {
+
+        .container {
+
+            .about {
+
+                .container {
+
+                    .about__container {
+                        background: $white-color;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+
+}

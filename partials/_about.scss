@@ -115,7 +115,7 @@
 
                         .box-image {
                             width: 7rem;
-                            height: 7rem;
+                            height: 9rem;
                             border-radius: 5rem;
                             border: 4px solid $blue-color;
                             transition: $transition;
@@ -167,4 +167,80 @@
             }
         }
     }
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 1024px) {
+    .about {
+
+        .container {
+    
+            .about__container {
+                flex-direction: column;
+                gap: 1rem;
+    
+                .left {
+                    width: 100%;
+    
+                    .home__text {
+                        
+                        .text-card {
+                            justify-content: center;
+                            padding: .5rem;
+                            width: 20rem;
+                            min-height: 20rem;
+                            background: $silver-color;
+    
+                            h4 {
+                                font-size: 2rem;
+                            }
+    
+                            p {
+                                margin-block-end: .5rem;
+                                color: $dark-color;
+                            }
+                        }
+                    }
+                }
+    
+                .right {
+                    width: 100%;
+    
+                    .home__card {
+    
+                        .card-box {
+                            justify-content: center;
+                            padding: .5rem;
+                            width: 20rem;
+                            min-height: 20rem;
+                            background: $silver-color;
+    
+                            .box-image {
+                                width: 5rem;
+                                height: 7rem;
+                                border-radius: 5rem;
+                            }
+
+                            .box-name {
+    
+                                small {
+                                    color: $dark-color
+                                }
+                            }
+    
+                            .box-socials {
+    
+                                i {
+                                    font-size: 1.4rem;
+                                    color: $dark-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
 }

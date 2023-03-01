@@ -30,7 +30,10 @@ navLink.forEach(item => {
 
 
 const lightBtn = document.querySelector('.light-btn').addEventListener('click', () => {
+
     const lightOn = document.querySelector('.light')
+    const activeBtn = document.querySelector('.light-btn')
 
     lightOn.classList.toggle('on')
+    activeBtn.classList.toggle('activeBtn')
 })

@@ -187,7 +187,6 @@
                         .text-card {
                             justify-content: center;
                             padding: .5rem;
-                            width: 22.5rem;
                             min-height: 20rem;
     
                             h4 {
@@ -209,7 +208,6 @@
                         .card-box {
                             justify-content: center;
                             padding: .5rem;
-                            width: 22.5rem;
                             min-height: 20rem;
     
                             .box-image {
@@ -224,6 +222,44 @@
                                     font-size: 1.4rem;
                                 }
                             }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+/*==========Media Query==========*/
+@media (max-width: 768px) {
+    .about {
+
+        .container {
+    
+            .about__container {
+
+                span {
+                    display: none;
+                }
+
+                .left {
+    
+                    .home__text {
+                        
+                        .text-card {
+                            box-shadow: $shadow;
+                        }
+                    }
+                }
+
+                .right {
+    
+                    .home__card {
+    
+                        .card-box {
+                            box-shadow: $shadow;
                         }
                     }
                 }

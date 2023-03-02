@@ -8,11 +8,12 @@
             .container {
 
                 .home__container {
-                    padding: .5rem 1rem 0 1rem;
+                    padding: .5rem 1rem;
                     height: 85vh;
-                    box-shadow: $shadow3;
-                    background: $dark-color;
+                    box-shadow: $shadow4;
                     border-radius: .5rem;
+                    background: $dark-color;
+                    border: 1px solid $white-color;
                 }
             }
         }
@@ -24,6 +25,9 @@
                 .about__container {
                     padding: .5rem 1rem;
                     height: 80vh;
+                    box-shadow: $shadow4;
+                    border-radius: .5rem;
+                    border: 1px solid $white-color;
                 }
             }
         }
@@ -35,6 +39,9 @@
                 .technology__container {
                     padding: .5rem 1rem;
                     height: 80vh;
+                    box-shadow: $shadow4;
+                    border-radius: .5rem;
+                    border: 1px solid $white-color;
                 }
             }
         }
@@ -46,6 +53,9 @@
                 .portfolio__container {
                     padding: .5rem 1rem;
                     height: 80vh;
+                    box-shadow: $shadow4;
+                    border-radius: .5rem;
+                    border: 1px solid $white-color;
                 }
             }
         }
@@ -57,6 +67,9 @@
                 .contact__container {
                     padding: .5rem 1rem;
                     height: 80vh;
+                    box-shadow: $shadow4;
+                    border-radius: .5rem;
+                    border: 1px solid $white-color;
                 }
             }
         }
@@ -97,6 +110,7 @@
 
                     .about__container {
                         height: auto;
+                        background: $white-color;
                     }
                 }
             }
@@ -107,6 +121,7 @@
 
                     .technology__container {
                         height: 78vh;
+                        background: $white-color;
                     }
                 }
             }
@@ -117,6 +132,7 @@
 
                     .portfolio__container {
                         height: 78vh;
+                        background: $white-color;
                     }
                 }
             }
@@ -127,6 +143,7 @@
 
                     .contact__container {
                         height: 78vh;
+                        background: $white-color;
                     }
                 }
             }

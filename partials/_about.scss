@@ -239,6 +239,7 @@
         .container {
     
             .about__container {
+                gap: .4rem;
 
                 span {
                     display: none;
@@ -250,7 +251,12 @@
                         
                         .text-card {
                             width: 22.4rem;
-                            box-shadow: $shadow;
+                            box-shadow: none;
+                            border: 0;
+
+                            p {
+                                text-align: left;
+                            }
                         }
                     }
                 }
@@ -261,7 +267,8 @@
     
                         .card-box {
                             width: 22.4rem;
-                            box-shadow: $shadow;
+                            box-shadow: none;
+                            border: 0;
                         }
                     }
                 }

@@ -11,10 +11,10 @@
             span {
                 position: absolute;
                 bottom: -5rem;
-                background: $transparent-color;
+                background: hsla(192, 98%, 47%, 0.062);
                 border-radius: 50%;
                 pointer-events: none;
-                box-shadow: inset 0 0 4px $silver-color;
+                box-shadow: inset 0 0 4px hsla(192, 98%, 47%, 0.116);
                 animation: bubblesTop 4s linear infinite;
 
                 &::before {
@@ -24,7 +24,7 @@
                     height: 100%;
                     transform: scale(.20) translate(-70%, -70%);
                     filter: blur(10px);
-                    background: radial-gradient($silver-color, $transparent-color);
+                    background: radial-gradient($white-color, $transparent-color);
                     border-radius: 50%;
                 }
             }
@@ -62,8 +62,9 @@
                         flex-direction: column;
                         gap: 1rem;
                         padding: 2rem;
-                        background: $dark-color;
-                        width: 22rem;
+                        background: $white-color;
+                        box-shadow: $shadow3;
+                        width: 24.5rem;
                         min-height: 30rem;
                         border-radius: .5rem;
                         border: 1px solid hsla(0, 0%, 13%, 0.048);
@@ -78,8 +79,6 @@
                         }
 
                         p {
-                            color: $bg-color;
-                            transition: $transition;
                             margin-block-end: 1rem;
                             text-align: justify;
                         }
@@ -106,8 +105,9 @@
                         flex-direction: column;
                         gap: 1rem;
                         padding: 2rem;
-                        background: $dark-color;
-                        width: 22rem;
+                        background: $white-color;
+                        box-shadow: $shadow3;
+                        width: 24.5rem;
                         min-height: 30rem;
                         border-radius: .5rem;
                         border: 1px solid hsla(0, 0%, 13%, 0.048);
@@ -139,7 +139,7 @@
                             }
 
                             small {
-                                color: $bg-color;
+                                color: $dark-color;
                             }
                         }
 
@@ -148,11 +148,10 @@
                             justify-content: center;
                             gap: 1.5rem;
                             margin-block-start: 1rem;
-                            transition: $transition;
 
                             i {
                                 font-size: 1.7rem;
-                                color: $bg-color;
+                                color: $blue-color;
                             }
                         }
 
@@ -179,11 +178,6 @@
             .about__container {
                 flex-direction: column;
                 gap: 1rem;
-
-                span {
-                    background: $dark-color;
-                    box-shadow: inset 0 0 4px $dark-color;
-                }
     
                 .left {
                     width: 100%;
@@ -193,9 +187,8 @@
                         .text-card {
                             justify-content: center;
                             padding: .5rem;
-                            width: 20rem;
+                            width: 22.5rem;
                             min-height: 20rem;
-                            background: $silver-color;
     
                             h4 {
                                 font-size: 1.5rem;
@@ -203,7 +196,6 @@
     
                             p {
                                 margin-block-end: .5rem;
-                                color: $dark-color;
                             }
                         }
                     }
@@ -217,28 +209,19 @@
                         .card-box {
                             justify-content: center;
                             padding: .5rem;
-                            width: 20rem;
+                            width: 22.5rem;
                             min-height: 20rem;
-                            background: $silver-color;
     
                             .box-image {
                                 width: 5rem;
                                 height: 7rem;
                                 border-radius: 5rem;
                             }
-
-                            .box-name {
-    
-                                small {
-                                    color: $dark-color
-                                }
-                            }
     
                             .box-socials {
     
                                 i {
                                     font-size: 1.4rem;
-                                    color: $dark-color;
                                 }
                             }
                         }

@@ -4,37 +4,19 @@
 
         .footer__container {
             border-top: 2px solid $white-color;
-            align-items: flex-start;
+            align-items: center;
             justify-content: center;
-            gap: 10rem;
             transition: $transition;
 
-            article {
+            .footer-socials {
                 display: flex;
                 flex-direction: column;
-                align-items: flex-start;
-                gap: .7rem;
-
-                h4 {
-                    margin-block-end: .6rem;
-                    text-transform: capitalize;
-                }
-    
-                a {
-                    font-weight: 400;
-                    text-transform: capitalize;
-                    transition: $transition;
-                    margin-block-end: .7rem;
-                    color: $dark-color;
-    
-                    &:hover {
-                        transform: translateX(10px);
-                    }
-                }
-            }
-
-            .footer-socials {
                 align-items: center;
+    
+                h4 {
+                    margin-block-end: 1.4rem;
+                    text-transform: capitalize;
+                }
                 
 
                 div {

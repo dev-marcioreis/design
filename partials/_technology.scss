@@ -3,9 +3,23 @@
     .container {
 
         .technology__container {
+            position: relative;
             align-items: center;
             justify-content: center;
             flex-direction: column;
+
+            .technology-text {
+                position: absolute;
+                top: 1rem;
+                
+                h2 {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                    color: $blue-color;
+                    margin-block-end: .5rem;
+                }
+            }
 
             .tech-container {
                 position: relative;
@@ -15,6 +29,7 @@
                 box-shadow: $shadow3;
                 border: 6px solid $white-color;
                 background: $white-color;
+                margin-block-start: 2rem;
 
                 .tech-icon {
                     position: relative;
@@ -144,11 +159,19 @@
         .container {
     
             .technology__container {
+                
+                .technology-text {
+                    
+                    h2 {
+                        font-size: 1.2rem;
+                    }
+                }
     
                 .tech-container {
                     width: 18rem;
                     height: 18rem;
                     background: $dark-color;
+                    margin-block-start: .5rem;
     
                     .tech-icon {
                         left: -48%;

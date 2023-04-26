@@ -6,7 +6,7 @@ Este é meu portfólio atual.
 
 ## 🚀 Finalizado.
 
-## 📋 Técnologias
+## 📋 Tecnologias
 SASS
 
 ## ✒️ Autor
